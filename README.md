@@ -8,35 +8,11 @@ sudo apt upgrade
 sudo apt-get install -y git curl build-essential
 ```
 
-## Install Node JS (for Debian Systems)
+## Install Node JS
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
-```
-
-## Install Node JS (for MacOS, note brew installation out of scope)
-
-```bash
-curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
-```
-
-or
-
-```bash
-brew install node
-```
-
-## Install NodeJS (for Windows note cinst/scoop installation out of scope)
-
-```bash
-cinst nodejs.install
-```
-
-or
-
-```bash
-scoop install nodejs
 ```
 
 ## Check version

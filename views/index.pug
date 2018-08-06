@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container.landing
+    .jumbotron.mt-4
+      h1.display-5.m-2.p-2 Express &amp; Socket Integration
+      ul.list-group.m-2.p-2#messages
+      .row.m-2.p-2
+        .col
+          form
+            .row
+              .col-12
+                .form-group
+                  input.form-control#m(type='text', autocomplete='off', placeholder='Enter your message here')
+            .row
+              .col-12
+                button.btn.btn-primary.btn-lg Send

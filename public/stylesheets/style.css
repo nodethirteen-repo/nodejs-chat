@@ -1,0 +1,7 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.my_scroll {
+  position: relative;
+}
